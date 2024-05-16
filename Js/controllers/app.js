@@ -32,7 +32,7 @@ async function saveNewCard(event) {
   event.preventDefault();
   const name = document.querySelector("[data-name]").value;
   const priceLoad = document.querySelector("[data-price]").value;
-  const imagenLink = document.querySelector("[data-imagenUrl]").value;
+  const imagenLink = document.querySelector("[data-imagen]").value;
   const priceConverted = parseFloat(priceLoad);
   await connectionAPI.saveNewProducts(name, priceConverted, imagenLink);
 

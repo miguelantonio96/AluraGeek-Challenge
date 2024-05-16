@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "name": "alurageek-challenge",
+  "version": "1.0.0",
+  "description": "plaform to save products",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch prod.json --port 3001"
+  },
+  "author": "Miguel Casado",
+  "license": "ISC"
+}
